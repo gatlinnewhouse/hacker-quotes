@@ -1,4 +1,4 @@
-if [[ -o interactive ]] && [[ -o login || -n "${ZSH_HACKER_QUOTES_ENABLE_WHEN_INTERACTIVE+if_check_var_defined_will_got_output_or_nothing}" ]]; then
+if [[ -o interactive ]]; then
     hacker_quotes=(
         # Linus Torvalds
         "Talk is cheap. Show me the code.\n - Linus Torvalds"
