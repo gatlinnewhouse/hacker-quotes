@@ -1,4 +1,4 @@
-if [[ -o login && -o interactive ]]; then
+if [[ -o login ]] && [[ -o interactive ]]; then
     hacker_quotes=(
         # Linus Torvalds
         "Talk is cheap. Show me the code.\n - Linus Torvalds"
